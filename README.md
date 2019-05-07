@@ -12,7 +12,7 @@ You will have 1 hour to build this application.
 
 ![turing-cafe-screenshot](https://user-images.githubusercontent.com/20754511/57332366-dbd59d00-70d7-11e9-9de6-967d7aca98a4.png)
 
-### Iteration O
+### Iteration 0
 
 Pull down the [API repo](https://github.com/turingschool-examples/turing-cafe-api), get it up and running, and read through the README carefully.
 
