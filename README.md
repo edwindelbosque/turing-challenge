@@ -12,7 +12,7 @@ Update the current remote origin and point it at the new URL of the repository y
 
 Once you've updated the remote, you should run `npm install`, commit, and then push your initial commit to your updated remote origin. You might need to use the `-u` flag when you push (like this: `git push -u origin master`).
 
-Run `npm start` to get start up your React server.
+Run `npm start` to start up your React server.
 
 ### Expectations / Rules
 
