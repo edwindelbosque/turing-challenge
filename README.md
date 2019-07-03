@@ -40,12 +40,16 @@ Create a controlled form component to create a reservation (look into the API do
 
 ### Iteration 3
 
-When the user clicks the `Make Reservation` button, the application should make a post request to the API and update state. The new reservation should display with all of the existing reservations.
+When the user clicks the `Make Reservation` button, the application should update the App's state.  The new reservation should display with all of the existing reservations.
+
+### Iteration 4
+
+When the user makes a reservation, the application should make a post request to the API.  The new reservation should still exist upon reloading the page.
 
 **You may not have any fetch calls in any component other than App!**
 
 (If you have time to refactor your fetch calls into a separate helper file, that is fine, but it is *NOT* a requirement for this application.)
 
-### Iteration 4 (extension)
+### Iteration 5 (extension)
 
 Delete a reservation when the user clicks the `Cancel` button.
