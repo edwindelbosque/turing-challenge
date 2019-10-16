@@ -18,7 +18,7 @@ Run `npm start` to start up your React server.
 
 Build a React App that displays the current reservations for the Turing Cafe!
 
-You will have 1 hour to build this application.
+You will have 3 hours to build this application.
 
 ![turing-cafe-screenshot](https://user-images.githubusercontent.com/20754511/57332366-dbd59d00-70d7-11e9-9de6-967d7aca98a4.png)
 
@@ -36,11 +36,11 @@ Get all existing reservations on page load and display them on the DOM.
 
 ### Iteration 2
 
-Create a controlled form component to create a reservation (look into the API documentation to see what pieces of information are expected, and what datatypes it wants each piece to be). As a user types into the input fields, the component's state should change.
+Create a controlled form component to create a reservation (look into the API documentation to see what pieces of information are expected, and what datatypes it wants each piece to be). As a user types into the input fields, the component's state should change.  When the user clicks the `Make Reservation` button, the application should update the App's state.  The new reservation should display with all of the existing reservations. 
 
 ### Iteration 3
 
-When the user clicks the `Make Reservation` button, the application should update the App's state.  The new reservation should display with all of the existing reservations.
+Now that the functionality is there, write some tests.  Focus on tests for the UI as well as state changes and simulating events.  For now, you don't have to test everything.  But write two tests for each (6 total).
 
 ### Iteration 4
 
@@ -52,4 +52,10 @@ When the user makes a reservation, the application should make a post request to
 
 ### Iteration 5 (extension)
 
-Delete a reservation when the user clicks the `Cancel` button.
+Delete a reservation when the user clicks the `Cancel` button.  The deletion should persist upon reloading the page.
+
+### Extensions
+
+* Now try testing your API calls.  Try writing out a few tests including happy path and sad path testing.
+
+* Add a button or drop down so that the user has the option to sort their reservates by date from earliest to latest or latest to earliest.
