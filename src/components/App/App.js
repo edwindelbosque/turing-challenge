@@ -17,6 +17,7 @@ class App extends Component {
       .then(reservations => this.setState({
         reservations: reservations
       }))
+      .catch(error => console.warning(error))
   }
 
   makeReservation = (information) => {
@@ -25,7 +26,7 @@ class App extends Component {
       getReservations()
         .then(reservations => this.setState({
           reservations: reservations
-        }))
+        })).catch(error => console.warning(error))
     }, 50)
   }
 
@@ -35,7 +36,7 @@ class App extends Component {
       getReservations()
         .then(reservations => this.setState({
           reservations: reservations
-        }))
+        })).catch(error => console.warning(error))
     }, 50)
   }
 
