@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Should match the snapshot 1`] = `
+<div
+  className="App"
+>
+  <h1
+    className="app-title"
+  >
+    Turing Cafe Reservations
+  </h1>
+  <div
+    className="resy-form"
+  >
+    <Form
+      makeReservation={[Function]}
+    />
+  </div>
+  <div
+    className="resy-container"
+  >
+    <CardContainer
+      cancelReservation={[Function]}
+      reservations={Array []}
+    />
+  </div>
+</div>
+`;
