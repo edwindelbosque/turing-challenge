@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
-import '../Form/Form';
-import '../ReservationsContainer/ReservationsContainer';
+import Form from '../Form/Form';
+import CardContainer from '../CardContainer/CardContainer';
 
 class App extends Component {
   render() {
@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App">
         <h1 className='app-title'>Turing Cafe Reservations</h1>
         <div className='resy-form'>
-
+          <CardContainer />
         </div>
         <div className='resy-container'>
 
