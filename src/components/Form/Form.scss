@@ -1,0 +1,22 @@
+form {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+
+
+  input {
+    height: 30px;
+    margin-bottom: 20px;
+    width: 200px;
+    font-size: 18px;
+    padding-left: 5px;
+  }
+
+  button {
+    height: 30px;
+    width: 220px;
+    background: #008080;
+    font-size: 18px;
+    color: white;
+  }
+}

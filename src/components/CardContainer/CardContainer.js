@@ -19,9 +19,9 @@ const CardContainer = ({ reservations, cancelReservation }) => {
     })
 
   return (
-    < section >
+    <section className='cards-container'>
       {displayReservations}
-    </section >
+    </section>
   )
 }
 

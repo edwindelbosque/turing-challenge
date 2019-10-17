@@ -1,0 +1,22 @@
+.card {
+  padding: 10px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 5px solid #008080;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #008080;
+  align-items: center;
+  font-size: 14px;
+
+  button {
+    background: #008080;
+    height: 30px;
+    width: 90%;
+    color: white;
+    font-size: 18px;
+  }
+}
