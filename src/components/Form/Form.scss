@@ -18,5 +18,19 @@ form {
     background: #008080;
     font-size: 18px;
     color: white;
+
+    &:hover {
+      background: darken(#008080, 8%);
+      transition: .15s;
+    }
+
+    &:active {
+      background: darken(#008080, 14%);
+      transition: .15s;
+    }
+
+    &:focus {
+      outline: none;
+    }
   }
 }

@@ -18,5 +18,20 @@
     width: 90%;
     color: white;
     font-size: 18px;
+    transition: .15s;
+
+    &:hover {
+      background: darken(#008080, 8%);
+      transition: .15s;
+    }
+
+    &:active {
+      background: darken(#008080, 14%);
+      transition: .15s;
+    }
+
+    &:focus {
+      outline: none;
+    }
   }
 }
