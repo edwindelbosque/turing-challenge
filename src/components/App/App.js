@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
+import '../Form/Form';
+import '../ReservationsContainer/ReservationsContainer';
 
 class App extends Component {
   render() {
