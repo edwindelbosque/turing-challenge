@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.scss';
 import Form from '../Form/Form';
 import CardContainer from '../CardContainer/CardContainer';
-import { getReservations, postReservation } from '../../apiCalls';
+import { getReservations, postReservation, deleteReservation } from '../../apiCalls';
 
 class App extends Component {
   constructor() {
@@ -26,7 +26,17 @@ class App extends Component {
         .then(reservations => this.setState({
           reservations: reservations
         }))
-    }, 1000)
+    }, 50)
+  }
+
+  cancelReservation = (id) => {
+    deleteReservation(id);
+    setTimeout(() => {
+      getReservations()
+        .then(reservations => this.setState({
+          reservations: reservations
+        }))
+    }, 50)
   }
 
   render() {
@@ -38,7 +48,9 @@ class App extends Component {
           <Form makeReservation={this.makeReservation} />
         </div>
         <div className='resy-container'>
-          <CardContainer reservations={reservations} />
+          <CardContainer
+            reservations={reservations}
+            cancelReservation={this.cancelReservation} />
         </div>
       </div>
     )

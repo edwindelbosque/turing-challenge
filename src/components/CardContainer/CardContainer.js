@@ -2,7 +2,7 @@ import React from 'react';
 import './CardContainer.scss';
 import Card from '../Card/Card';
 
-const CardContainer = ({ reservations }) => {
+const CardContainer = ({ reservations, cancelReservation }) => {
 
   const displayReservations =
     reservations.map(reservation => {
@@ -14,6 +14,7 @@ const CardContainer = ({ reservations }) => {
         date={date}
         time={time}
         number={number}
+        cancelReservation={cancelReservation}
       />
     })
 

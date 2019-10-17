@@ -16,3 +16,9 @@ export const postReservation = (reservation) => {
     .then(response => response.json())
     .then(reservation => reservation)
 }
+
+export const deleteReservation = (id) => {
+  return fetch(`http://localhost:3001/api/v1/reservations/${id}`, {
+    method: 'delete'
+  })
+}
