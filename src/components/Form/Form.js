@@ -20,7 +20,14 @@ class Form extends Component {
 
   handleClick = (event) => {
     event.preventDefault();
-    const reservation = { id: Date.now(), ...this.state };
+    const { name, date, time, number } = this.state;
+    const reservation = {
+      id: Date.now(),
+      name,
+      date,
+      time,
+      number: parseInt(number)
+    };
     this.props.makeReservation(reservation);
     this.setState({
       name: '',
