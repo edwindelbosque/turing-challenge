@@ -40,7 +40,7 @@ Create a controlled form component to create a reservation (look into the API do
 
 ### Iteration 3
 
-Now that the functionality is there, write some tests.  Focus on tests for the UI as well as state changes and simulating events.  For now, you don't have to test everything.  But write two tests for each (6 total).
+Now that the functionality is there, write some tests.  It is not necessary to test everything.  Write atleast 2 tests covering UI (ie snapshots), 2 tests for changes in state, and finally 2 tests that simulate events (6 total).
 
 ### Iteration 4
 
